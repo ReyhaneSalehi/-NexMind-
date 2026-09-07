@@ -1,6 +1,11 @@
 # 🧠 NexMind – Digital Mental Health Assistant
+An AI-powered conversational assistant designed to provide supportive, empathetic, and non-clinical emotional interactions.
 
-## 📘 Artificial Intelligence Course Project
+## 📘 About the Project
+NexMind is a university project developed for the Artificial Intelligence Course at Islamic Azad University.
+The project aims to create a digital mental health assistant capable of understanding emotional signals in user messages and generating supportive responses.
+NexMind combines rule-based emotional analysis with AI-generated responses to provide a more flexible conversational experience.
+⚠️ Disclaimer: NexMind is not a medical or clinical system. It does not provide diagnosis, psychotherapy, or medical treatment. It is designed only for general emotional support and educational purposes.
 
 ---
 
@@ -12,22 +17,24 @@ University Name: Rafsanjani Complex, Islamic Azad University
 Instructor: Dr. Maryam Haji Esmaeili  
 
 ### 👥 Team Members
-- Leader: [Reyhane Salehi ] – [40110130117462]
-- [Mina Heidary ] – [40110130117384]
-- [Donya ghorbani] – [40110130117415]
-- [mohammad saleh imani]_[40110130117572]
-- [Abtin nikoobonyad rad ] – [40010130117039]
+- Reyhane Salehi
+- Mina Heidary
 
 ---
 
-## 🌱 Project Overview
-
-NexMind is an AI-powered conversational system designed as a digital mental health assistant.  
-The system focuses on emotional awareness, empathetic dialogue, and supportive interaction 💬💛.
-
-The system does not provide medical diagnosis, therapy, or clinical treatment.  
-Its purpose is to encourage emotional expression, reflection, and general well-being support in a non-clinical and ethical manner.
-
+## 🤖 How It Works
+NexMind uses a combination of predefined logic and AI-generated responses.
+1. User Input
+The user sends a message through the graphical interface.
+2. Emotion Analysis
+The system analyzes the user's message and looks for emotional signals using predefined patterns and keywords.
+3. Response Strategy
+Based on the detected emotional state and confidence level, the system determines the appropriate response strategy.
+4. Response Generation
+When a suitable predefined response is available, the system can use the prepared responses.
+For messages requiring more flexible conversation, the system communicates with the AI model through an API.
+5. Conversation
+The generated response is displayed to the user through the graphical interface.
 ---
 
 ## 🎯 Project Objectives
@@ -41,33 +48,19 @@ Its purpose is to encourage emotional expression, reflection, and general well-b
 
 ---
 
-## 🏗️ System Architecture
-
-The project follows a three-tier architecture:
-
-1. Frontend (Client Side)  
-2. Backend (Server Side)  
-3. AI Logic Layer  
-
----
-
-### 💻 Frontend (Client Side)
-
-- Implemented using React
-- Provides a chat-based user interface
-- Handles user input and message visualization
-- Communicates with the backend via HTTP requests
-- Supports both Persian (RTL) and English (LTR) text direction 🌍
-
----
-
-### ⚙️ Backend (Server Side)
-
-- Implemented using FastAPI
-- Exposes a RESTful API endpoint (/generate)
-- Handles request validation and response formatting
-- Acts as an interface between frontend and AI logic
-- Manages CORS configuration for cross-origin communication 🔗
+## 🛠️ Technologies Used
+Programming Language
+Python 🐍
+User Interface
+Tkinter
+AI / API
+Language Model API
+Python API integration
+python-dotenv
+Development Tools
+Visual Studio Code
+Git
+GitHub
 
 ---
 
@@ -167,8 +160,23 @@ Response:
 - Emotion detection is keyword-based and may not capture all nuances
 - Conversation memory is intentionally limited
 - The assistant is designed for general emotional support only
+  
+---
+##👩🏻‍💻 My Contributions
+As the Team Leader, I was responsible for coordinating the project development and contributing to the implementation of several core components.
+My main contributions included:
+👩🏻‍💻 Project management and team coordination
+🖥️ Development and integration of the graphical user interface
+🧠 Implementation of emotion-related response logic
+💬 Design and organization of predefined emotional responses
+🤖 Integration of AI-generated responses through an API
+📝 Implementation and improvement of conversation memory
+🛡️ Development of response-safety and conversational constraints
+🔗 Integration of the UI, application logic, and API components
+🧪 Debugging and testing different conversation scenarios
+✨ Improving the conversational experience and response behavior
 
-
+---
 ## ✨ How to Run the Project
 Backend:
 
@@ -183,8 +191,20 @@ npm install  
 
 npm start
 
+---
+##⚠️ Limitations
 
+Emotion detection is based on predefined patterns and may not understand every emotional nuance.
 
+The system is not a replacement for professional mental health services.
+
+Conversation memory is intentionally limited.
+
+AI-generated responses depend on the external language model API.
+
+Internet access is required for AI-generated responses.
+
+---
 ## ⚜️ Screenshots
 
 ### Chat Interface
@@ -208,3 +228,4 @@ npm start
 NexMind demonstrates the practical application of artificial intelligence concepts, multi-agent systems, and full-stack software engineering.  
 
 The project emphasizes emotional awareness, safety, and modular AI design within an ethical framework.
+
